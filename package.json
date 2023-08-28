@@ -1,0 +1,22 @@
+{
+  "name": "2-perguntas-respostas",
+  "version": "1.0.0",
+  "description": "Perguntas e Respostas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

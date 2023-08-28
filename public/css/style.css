@@ -1,0 +1,73 @@
+* {
+    font-family: 'Averia Serif Libre', cursive;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e5e8e9;
+}
+
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.177);
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #ecf0f1;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.175);
+}
+
+label {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#btnVerPergunta {
+    width: 100%;
+}
+
+#footerPergunta {
+    display: flex; 
+    flex-direction: column; 
+    align-items: end;
+}
+
+#bodyPergunnta {
+    border-radius: 15px; 
+    max-width: 90%; 
+    margin: auto;
+}
+
+#btnPerguntar  {
+    width: 150px;
+    font-weight: bold;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #151515;
+}
+::-webkit-scrollbar-track {
+    background-color: #151515;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 159, 15);
+    border-radius: 10px;
+}
